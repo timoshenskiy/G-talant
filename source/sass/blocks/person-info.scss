@@ -1,0 +1,29 @@
+
+
+@media screen and (min-width: $tablet-width) {
+
+}
+
+@media screen and (min-width: $desktop-width) {
+  .person-info {
+    display: grid;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 30% 60%;
+    column-gap: 10%;
+  }
+
+  .person-info__text {
+
+  }
+
+  .person-info__visual {
+
+  }
+
+  .person-info__main-photo {
+
+  }
+
+}

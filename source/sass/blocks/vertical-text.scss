@@ -1,0 +1,65 @@
+.vertical-text {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $color-5;
+  background-color: $color-1;
+
+}
+
+.vertical-text__symbol {
+
+}
+
+
+
+@media screen and  (min-width: $tablet-width) {
+  .vertical-text {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70px;
+    max-height: 100%;
+
+  }
+
+  .vertical-text__symbol {
+    display: block;
+    min-width: 15px;
+    font-size: 26px;
+    line-height: 110%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: $color-5;
+  }
+
+}
+
+@media screen and  (min-width: $desktop-width) {
+  .vertical-text {
+    width: 80px;
+  }
+
+  .vertical-text__symbol {
+
+
+
+  }
+}
+

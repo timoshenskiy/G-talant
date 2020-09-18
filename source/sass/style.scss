@@ -1,0 +1,128 @@
+@import "variables.scss";
+@import "common.scss";
+@import "fonts.scss";
+
+@import "blocks/header.scss";
+@import "blocks/vertical-text.scss";
+
+
+
+@import "blocks/footer.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/catalog-link-list.scss";
+@import "blocks/controls.scss";
+
+@import "blocks/catalog.scss";
+
+@import "blocks/person-info.scss";
+
+
+
+
+
+
+
+
+// /* catalog-menu */
+
+
+
+// .categories-wrapper {
+//   display: grid;
+//   column-gap: 46px;
+//   grid-template-columns: 249px 1fr;
+//   margin-top: 28px;
+
+// }
+
+
+// .slider {
+//   display: block;
+//   grid-column-start: 2;
+//   grid-column-end: 3;
+//   grid-row-start: 1;
+//   grid-row-end: 2;
+//   width: 100%;
+//   min-height: 428px;
+//   background-color: greenyellow;
+// }
+
+// /* catalog-menu */
+
+// .catalog-menu {
+//   grid-column-start: 1;
+//   grid-column-end: 2;
+//   display: block;
+//   box-shadow: 2px 2px 2px rgba(93, 114, 133, 0.07);
+// }
+
+// .catalog-menu__list {
+//   position: relative;
+//   display: block;
+//   min-width: 249px;
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   background-color: #F8F8F8;
+// }
+
+// .catalog-menu__list--inner {
+//   display: none;
+// }
+
+// .catalog-menu__list--even {
+//   background-color: var(--main-blue);
+// }
+
+// .catalog-menu__item {
+//   display: block;
+//   margin: 0;
+//   padding: 0;
+
+// }
+
+// .catalog-menu__link {
+//   display: block;
+//   padding-top: 7px;
+//   margin-left: 18px;
+//   padding-bottom: 5px;
+//   border-bottom: 1px solid #DEE7EF;
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 14px;
+//   line-height: 19px;
+//   color: #3B455C;
+//   text-decoration: none;
+// }
+
+// .catalog-menu__link::after {
+//   content: "";
+//   display: block;
+//   width: 16px;
+//   min-height: 16px;
+//   background-image: url("images/arrow-blue-right.svg");
+//   background-repeat: no-repeat;
+// }
+
+// .catalog-menu__link:hover,
+// .catalog-menu__link:focus {
+//   color: #DEE7EF;
+//   background-color: var(--main-blue);
+// }
+
+// .catalog-menu__item:hover>.catalog-menu__list--inner {
+//   position: absolute;
+//   display: block;
+//   width: 246px;
+//   top: 0;
+//   right: -249px;
+
+// }
+
+// .catalog-menu__list--inner:hover {
+//   display: block;
+// }
+
+// .catalog-menu__link:active {
+
+// }
+
