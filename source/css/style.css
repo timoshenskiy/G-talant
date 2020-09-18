@@ -82,7 +82,7 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr;
     flex-grow: 1;
-    max-height: 90vh;
+    max-height: 100%;
     overflow: hidden; }
 
 .header__small-logo {
