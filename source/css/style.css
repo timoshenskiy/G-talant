@@ -86,9 +86,6 @@ img {
     max-height: 90vh;
     overflow: hidden; }
 
-.header__logo {
-  position: relative; }
-
 .header__small-logo {
   width: 100px;
   height: auto;
@@ -100,11 +97,12 @@ img {
     opacity: 0.5;
     transform: scale(0.9); }
 
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .header__image {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 70vw; }
 
 .header__text {
@@ -454,7 +452,8 @@ img {
 
 .person-info__video {
   display: block;
-  margin: 20px auto; }
+  margin: 20px auto;
+  max-width: 100%; }
 
 .person-info__table {
   display: block;

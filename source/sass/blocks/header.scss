@@ -22,9 +22,6 @@
 }
 
 
-.header__logo {
-  position: relative;
-}
 
 .header__small-logo {
   width: 100px;
@@ -43,11 +40,14 @@
   }
 }
 
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .header__image {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 70vw;
 }
 
