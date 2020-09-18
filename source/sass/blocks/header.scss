@@ -4,10 +4,15 @@
   width: 100%;
   min-height: 100px;
   background-color: $color-3;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 
   &--index {
     display: grid;
+    padding: 0;
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr;
     flex-grow: 1;
@@ -24,14 +29,26 @@
 .header__small-logo {
   width: 100px;
   height: auto;
+
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+    transform: scale(1.07);
+  }
+
+  &:active {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
 }
 
 .header__image {
   position: absolute;
-  top: 30%;
-  left: 45%;
+  top: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 80vw;
+  width: 70vw;
 }
 
 .header__text {
@@ -78,7 +95,6 @@
 
   .header__text {
     justify-content: flex-start;
-    padding-left: 1vw;
     text-transform: none;
   }
 
